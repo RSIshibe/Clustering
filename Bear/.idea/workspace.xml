@@ -2,14 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f013cb05-18dd-4fc2-8508-102235a4a444" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Clustering.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Import.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aux.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dados/form.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dados/static/css/Bear.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dados/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/setup/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/worker.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datas/templates/textos_alpha.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Bear.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Bear.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bear/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Bear/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bear/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Bear/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Clustering.py" beforeDir="false" afterPath="$PROJECT_DIR$/Clustering.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Import.py" beforeDir="false" afterPath="$PROJECT_DIR$/Import.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dados/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/charts/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dados/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/datas/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dados/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/datas/apps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dados/form.py" beforeDir="false" afterPath="$PROJECT_DIR$/datas/form.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dados/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/datas/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dados/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/datas/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dados/static/css/Bear.css" beforeDir="false" afterPath="$PROJECT_DIR$/datas/static/css/Bear.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dados/templates/textos_alpha.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dados/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/datas/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dados/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/datas/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dados/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/datas/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/datas/migrations/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/setup/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/setup/requirements.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,31 +35,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Clustering.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="43" column="8" selection-start-line="43" selection-start-column="8" selection-end-line="43" selection-end-column="8" />
+            <state relative-caret-position="58">
+              <caret line="69" column="18" selection-start-line="69" selection-start-column="6" selection-end-line="69" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/aux.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/setup/requirements.txt">
+        <entry file="file://$PROJECT_DIR$/datas/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dados/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="89" selection-start-line="7" selection-start-column="89" selection-end-line="7" selection-end-column="89" />
+            <state relative-caret-position="60">
+              <caret line="4" column="17" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="17" />
               <folding>
                 <element signature="e#0#32#0" expanded="true" />
               </folding>
@@ -55,10 +54,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dados/views.py">
+        <entry file="file://$PROJECT_DIR$/charts/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="163">
-              <caret line="86" column="31" selection-start-line="86" selection-start-column="23" selection-end-line="86" selection-end-column="31" />
+            <state relative-caret-position="105">
+              <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+              <folding>
+                <element signature="e#0#32#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/datas/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="689">
+              <caret line="56" column="76" selection-start-line="56" selection-start-column="76" selection-end-line="56" selection-end-column="76" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -67,50 +78,65 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/virtualenv/python37/lib/python3.7/site-packages/pandas/core/frame.py">
+        <entry file="file://$PROJECT_DIR$/Export.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="164">
-              <caret line="2893" selection-start-line="2893" selection-end-line="2893" />
+            <state>
+              <caret lean-forward="true" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/virtualenv/python37/lib/python3.7/site-packages/pandas/core/common.py">
+        <entry file="file://$PROJECT_DIR$/Import.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="217">
-              <caret line="330" selection-start-line="330" selection-end-line="330" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dados/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/dados/templates/textos_alpha.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="46" column="43" selection-start-line="46" selection-start-column="43" selection-end-line="46" selection-end-column="43" />
+            <state relative-caret-position="105">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
               <folding>
-                <element signature="n#src#0;n#img#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#table#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#0#15#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dados/form.py">
+        <entry file="file://$PROJECT_DIR$/Bear/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="22" column="33" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
+              <folding>
+                <element signature="e#628#660#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/charts/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="47" lean-forward="true" selection-start-column="47" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/datas/form.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
-              <caret line="4" column="28" lean-forward="true" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
+              <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/datas/templates/textos_alpha.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="103">
+              <caret line="56" column="45" lean-forward="true" selection-start-line="56" selection-start-column="45" selection-end-line="56" selection-end-column="45" />
+              <folding>
+                <element signature="n#style#0;n#table#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -125,6 +151,11 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>tables</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
@@ -134,28 +165,24 @@
         <option value="$PROJECT_DIR$/dados/url.py" />
         <option value="$PROJECT_DIR$/dados/templates/graficos/textos_alpha.html" />
         <option value="$PROJECT_DIR$/Bear/static/css/Bear.css" />
-        <option value="$PROJECT_DIR$/Bear/settings.py" />
         <option value="$PROJECT_DIR$/worker.py" />
-        <option value="$PROJECT_DIR$/Bear/urls.py" />
-        <option value="$PROJECT_DIR$/Import.py" />
         <option value="$PROJECT_DIR$/dados/form.py" />
-        <option value="$PROJECT_DIR$/setup/requirements.txt" />
-        <option value="$PROJECT_DIR$/dados/urls.py" />
         <option value="$PROJECT_DIR$/dados/models.py" />
         <option value="$PROJECT_DIR$/aux.py" />
-        <option value="$PROJECT_DIR$/Clustering.py" />
-        <option value="$PROJECT_DIR$/dados/views.py" />
+        <option value="$PROJECT_DIR$/setup/requirements.txt" />
+        <option value="$PROJECT_DIR$/Bear/settings.py" />
         <option value="$PROJECT_DIR$/dados/templates/textos_alpha.html" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/Bear.iml" />
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-        <option value="$PROJECT_DIR$/.idea/misc.xml" />
-        <option value="$PROJECT_DIR$/.idea/modules.xml" />
+        <option value="$PROJECT_DIR$/dados/urls.py" />
+        <option value="$PROJECT_DIR$/dados/views.py" />
+        <option value="$PROJECT_DIR$/Bear/urls.py" />
+        <option value="$PROJECT_DIR$/Import.py" />
+        <option value="$PROJECT_DIR$/Export.py" />
+        <option value="$PROJECT_DIR$/datas/form.py" />
+        <option value="$PROJECT_DIR$/charts/views.py" />
+        <option value="$PROJECT_DIR$/charts/urls.py" />
+        <option value="$PROJECT_DIR$/Clustering.py" />
+        <option value="$PROJECT_DIR$/datas/views.py" />
+        <option value="$PROJECT_DIR$/datas/templates/textos_alpha.html" />
       </list>
     </option>
   </component>
@@ -187,12 +214,17 @@
             <path>
               <item name="Bear" type="b2602c69:ProjectViewProjectNode" />
               <item name="Bear" type="462c0819:PsiDirectoryNode" />
-              <item name="dados" type="462c0819:PsiDirectoryNode" />
+              <item name="charts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Bear" type="b2602c69:ProjectViewProjectNode" />
               <item name="Bear" type="462c0819:PsiDirectoryNode" />
-              <item name="dados" type="462c0819:PsiDirectoryNode" />
+              <item name="datas" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Bear" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Bear" type="462c0819:PsiDirectoryNode" />
+              <item name="datas" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -204,11 +236,6 @@
               <item name="Bear" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
-            <path>
-              <item name="Bear" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.7 (python37) (2) &gt;" type="70bed36:NamedLibraryElementNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -217,8 +244,19 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/manage.py" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="PyConsoleConfigurable.Python Console" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings module-name="Bear" sdk-home="$PROJECT_DIR$/venv/bin/python">
+        <option name="mySdkHome" value="$PROJECT_DIR$/venv/bin/python" />
+        <option name="myModuleName" value="Bear" />
+        <option name="myAddContentRoots" value="false" />
+      </console-settings>
+    </option>
+    <option name="myShowDebugConsoleByDefault" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -281,8 +319,8 @@
       <option name="SDK_HOME" value="$USER_HOME$/virtualenv/python37/bin/python3.7" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="false" />
+      <option name="ADD_SOURCE_ROOTS" value="false" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/manage.py" />
       <option name="PARAMETERS" value="runserver 0:10000" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -310,12 +348,21 @@
     </task>
     <servers />
   </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-1" width="1920" height="1053" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18133895" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49835527" visible="true" weight="0.18133895" />
+      <window_info id="Structure" order="1" sideWeight="0.50164473" side_tool="true" weight="0.18133895" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32928178" />
@@ -323,28 +370,52 @@
       <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.49868214" visible="true" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32928178" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50131786" side_tool="true" weight="0.4" />
-      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32928178" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32928178" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32928178" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50131786" side_tool="true" weight="0.4" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32928178" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.3281768" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49835527" visible="true" weight="0.18133895" />
+      <window_info id="Structure" order="1" sideWeight="0.50164473" side_tool="true" weight="0.18133895" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32928178" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49973643" weight="0.32928178" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49868214" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32928178" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32928178" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50131786" side_tool="true" weight="0.4" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32928178" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.3281768" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout-to-restore>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/dados/views.py</url>
-          <line>100</line>
-          <option name="timeStamp" value="31" />
+          <url>file://$PROJECT_DIR$/datas/views.py</url>
+          <line>72</line>
+          <option name="timeStamp" value="44" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/dados/views.py</url>
-          <line>88</line>
-          <option name="timeStamp" value="32" />
+          <url>file://$PROJECT_DIR$/datas/views.py</url>
+          <line>67</line>
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/datas/views.py</url>
+          <line>58</line>
+          <option name="timeStamp" value="48" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
@@ -371,47 +442,47 @@
     </expressions>
     <expressions id="evaluateExpression">
       <expression>
-        <expression-string>tables</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>tables.append(df_to_cluster[df_to_cluster['Clusters'] == cluster].to_dict())</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
         <expression-string>df_to_cluster</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>y_kmeans</expression-string>
+        <expression-string>df_to_cluster[df_to_cluster['Clusters'] == cluster]</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>self.data_to_cluster</expression-string>
+        <expression-string>dict_cluster['Data']</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>self.plt</expression-string>
+        <expression-string>dict_cluster['Data'] = (df_to_cluster[df_to_cluster['Clusters'] == cluster].transpose().to_dict())</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>self.kmeans</expression-string>
+        <expression-string>dict_cluster</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>x</expression-string>
+        <expression-string>df_to_cluster[df_to_cluster['Clusters'] == cluster].transpose().to_dict()</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>df_to_cluster['RATING_AQUISICAO'].drop_duplicates()</expression-string>
+        <expression-string>tables</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>df_to_cluster['Clusters'].unique()</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>df_to_cluster.values</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
@@ -424,9 +495,6 @@
           <caret line="16" column="7" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dados/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$USER_HOME$/virtualenv/python37/lib/python3.7/site-packages/matplotlib/backends/_backend_tk.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -456,7 +524,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dados/static/css/Bear.css">
+    <entry file="file://$PROJECT_DIR$/datas/static/css/Bear.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="555">
           <caret line="37" column="1" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="1" />
@@ -466,34 +534,10 @@
     <entry file="file://$PROJECT_DIR$/Bear/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Bear/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-823">
-          <caret line="40" column="12" selection-start-line="40" selection-start-column="12" selection-end-line="40" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Import.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="35" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/worker.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="24" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Bear/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="16" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
-          <folding>
-            <element signature="e#628#660#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -525,78 +569,149 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dados/models.py">
+    <entry file="file://$PROJECT_DIR$/aux.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/virtualenv/python37/lib/python3.7/site-packages/pandas/core/frame.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42000">
+          <caret line="2893" selection-start-line="2893" selection-end-line="2893" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/virtualenv/python37/lib/python3.7/site-packages/pandas/core/common.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4710">
+          <caret line="330" selection-start-line="330" selection-end-line="330" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datas/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/aux.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/setup/requirements.txt">
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_bundle/pydev_import_hook.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+        <state relative-caret-position="108">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dados/form.py">
+    <entry file="file://$PROJECT_DIR$/setup/requirements.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="28" lean-forward="true" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
+        <state relative-caret-position="180">
+          <caret line="12" column="14" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bear/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="41" column="10" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bear/wsgi.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datas/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/virtualenv/python37/lib/python3.7/site-packages/openpyxl/reader/excel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="310" selection-start-line="310" selection-end-line="310" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Export.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Clustering.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="43" column="8" selection-start-line="43" selection-start-column="8" selection-end-line="43" selection-end-column="8" />
+        <state relative-caret-position="58">
+          <caret line="69" column="18" selection-start-line="69" selection-start-column="6" selection-end-line="69" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dados/urls.py">
+    <entry file="file://$PROJECT_DIR$/datas/form.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="89" selection-start-line="7" selection-start-column="89" selection-end-line="7" selection-end-column="89" />
+        <state relative-caret-position="60">
+          <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datas/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="17" />
           <folding>
             <element signature="e#0#32#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/virtualenv/python37/lib/python3.7/site-packages/pandas/core/common.py">
+    <entry file="file://$PROJECT_DIR$/charts/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="330" selection-start-line="330" selection-end-line="330" />
+        <state relative-caret-position="105">
+          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/virtualenv/python37/lib/python3.7/site-packages/pandas/core/frame.py">
+    <entry file="file://$PROJECT_DIR$/Bear/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="2893" selection-start-line="2893" selection-end-line="2893" />
+        <state relative-caret-position="330">
+          <caret line="22" column="33" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
+          <folding>
+            <element signature="e#628#660#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dados/views.py">
+    <entry file="file://$PROJECT_DIR$/Import.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="86" column="31" selection-start-line="86" selection-start-column="23" selection-end-line="86" selection-end-column="31" />
+        <state relative-caret-position="105">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datas/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="689">
+          <caret line="56" column="76" selection-start-line="56" selection-start-column="76" selection-end-line="56" selection-end-column="76" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dados/templates/textos_alpha.html">
+    <entry file="file://$PROJECT_DIR$/charts/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="46" column="43" selection-start-line="46" selection-start-column="43" selection-end-line="46" selection-end-column="43" />
+        <state>
+          <caret column="47" lean-forward="true" selection-start-column="47" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datas/templates/textos_alpha.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="103">
+          <caret line="56" column="45" lean-forward="true" selection-start-line="56" selection-start-column="45" selection-end-line="56" selection-end-column="45" />
           <folding>
-            <element signature="n#src#0;n#img#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#table#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -8,3 +8,6 @@ matplotlib
 scikit-learn
 rq
 openpyxl
+xlsxwriter
+sklearn
+django-chartjs

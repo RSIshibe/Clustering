@@ -67,3 +67,31 @@ class KMeansMethod(Clustering):
     def get_clusters(self):
         return self.y_kmeans
 
+class KMeansMethod(Clustering):
+
+    def __init__(self, df_input, alpha=0.5, s_clustering=200, s_processing=50, n_clusters=4):
+        super(KMeansMethod, self).__init__(df_input)
+        self.alpha = alpha
+        self.s_clustering = s_clustering
+        self.s_processing = s_processing
+        self.n_cluster = n_clusters
+
+    def preProcessing(self):
+        pass
+
+    def methodClustering(self):
+        self.kmeans = KMeans(n_clusters=self.n_cluster)
+        self.kmeans.fit(self.data_to_cluster)
+        self.y_kmeans = self.kmeans.predict(self.data_to_cluster)
+        self.plt.scatter(self.data_to_cluster[:, 0], self.data_to_cluster[:, 1], c=self.y_kmeans, s=self.s_clustering, cmap='viridis')
+
+    def posProcessing(self):
+        centers = self.kmeans.cluster_centers_
+        self.plt.scatter(centers[:, 0], centers[:, 1], c='black', s=self.s_processing, alpha=self.alpha)
+
+    def get_plt(self):
+        return self.plt
+
+    def get_clusters(self):
+        return self.y_kmeans
+

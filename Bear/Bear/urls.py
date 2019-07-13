@@ -16,9 +16,10 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, include
 
-from dados import urls
+from datas import urls
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('dados/', include('dados.urls')),
+    path('datas/', include('datas.urls')),
+    path('charts/', include('charts.urls')),
 ]
